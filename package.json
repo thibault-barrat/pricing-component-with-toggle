@@ -1,0 +1,36 @@
+{
+  "name": "thibault-barrat-gulp",
+  "version": "0.1.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Thibault Barrat <contact@thibault-barrat.com> (https://www.thibault-barrat.com/)",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "latest",
+    "del": "latest",
+    "gulp": "latest",
+    "gulp-autoprefixer": "latest",
+    "gulp-clean-css": "latest",
+    "gulp-clone": "latest",
+    "gulp-concat": "latest",
+    "gulp-cssnano": "latest",
+    "gulp-ignore": "latest",
+    "gulp-imagemin": "latest",
+    "gulp-merge": "latest",
+    "gulp-plumber": "latest",
+    "gulp-rename": "latest",
+    "gulp-replace": "latest",
+    "gulp-rimraf": "latest",
+    "gulp-sass": "latest",
+    "gulp-sequence": "latest",
+    "gulp-sourcemaps": "latest",
+    "gulp-uglify": "latest",
+    "gulp-watch": "latest",
+    "merge2": "latest",
+    "sass": "latest",
+    "run-sequence": "latest"
+  }
+}
