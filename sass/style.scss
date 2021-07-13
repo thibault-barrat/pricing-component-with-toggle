@@ -68,7 +68,15 @@ body {
         height: 32px;
     }
     &__toggle {
-        display: none;
+        opacity: 0;
+        width: 0;
+        height: 0;
+        margin: 0;
+        &:focus{
+            + .pricing-component__toggle-switch {
+                opacity: 0.5;
+            }
+        }
         &:checked {
             + .pricing-component__toggle-switch .pricing-component__toggle-slider::before {
                 transform: translateX(24px);
@@ -86,7 +94,7 @@ body {
         display: inline-block;
         width: 58px;
         height: 32px;
-        margin: 0 22px;
+        margin: 0 22px 0 18px;
         transition: .2s;
         &:hover {
             opacity: 0.5;
