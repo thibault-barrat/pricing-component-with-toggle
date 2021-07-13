@@ -55,7 +55,7 @@ body::before {
   width: 100%;
   max-width: 1048px;
   text-align: center;
-  margin: 50px 24px 55px 24px;
+  margin: 50px 0 55px 0;
   font-family: "Montserrat", sans-serif;
   font-size: 15px;
 }
@@ -134,7 +134,7 @@ body::before {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin-top: 65px;
+  margin: 65px 24px 0 24px;
 }
 @media screen and (min-width: 768px) {
   .pricing-component__cards {

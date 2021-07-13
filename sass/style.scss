@@ -51,7 +51,7 @@ body {
     width: 100%;
     max-width: 1048px;
     text-align: center;
-    margin: 50px 24px 55px 24px;
+    margin: 50px 0 55px 0;
     font-family: $montserrat;
     font-size: 15px;
     @media screen and (min-width: $breakpoint) {
@@ -118,7 +118,7 @@ body {
     &__cards {
         display: flex;
         flex-direction: column;
-        margin-top: 65px;
+        margin: 65px 24px 0 24px;
         @media screen and (min-width: $breakpoint) {
             flex-direction: row;
             align-items: center;
